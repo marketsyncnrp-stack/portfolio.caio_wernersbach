@@ -1,9 +1,11 @@
-# Caio Wernersbach — Portfolio
-
+# Caio Wernersbach — Digital Studio
 Next.js + TypeScript. Run npm install, then npm run dev. Production: npm run build && npm start.
 
-## Content
-Edit app/projects.ts to register projects, verified URLs and authorized desktop/mobile screenshots. Store screenshots in public/projects and reference their paths. Current previews are explicitly labeled conceptual illustrations, not actual screenshots. Set NEXT_PUBLIC_CONTACT_URL to a verified WhatsApp wa.me URL; until then the briefing can be copied, not sent. Do not publish private contact details without approval.
+## Configuration
+Set NEXT_PUBLIC_CONTACT_URL to a verified https://wa.me/ phone link, or NEXT_PUBLIC_CONTACT_EMAIL to an approved professional email. Until configured, the briefing is prepared locally and can be copied/downloaded; it is not submitted to a server. No personal contact details are published by default. Add verified public URLs and authorized screenshots in app/projects.ts (files in public/projects). Existing visual mockups are explicitly conceptual; Studio Forma is a fictional design study. The architecture URL was verified against the Vercel project domain. Do not expose private projects or client material without permission.
+
+## Features
+Responsive editorial portfolio, featured slider with pause, filterable grid/list gallery, detail dialogs with desktop/mobile concept views, services, process, FAQ, project briefing with budget and timeline preferences, downloadable brief, SEO metadata and favicon. Keyboard navigation and reduced-motion support. Budget selections are client preferences, not fixed price quotes.
 
 ## Workflow
-Work in this repository on main, commit each coherent change. Preserve white/editorial direction and accent #3454E8. Future work: authenticated admin, persistent project storage, safe screenshot capture, translations, browser testing and deployment.
+Commit directly to main. Keep the white/cobalt editorial direction. Remaining content: authorized screenshots, approved public contact details, additional translations and real-world browser validation.
